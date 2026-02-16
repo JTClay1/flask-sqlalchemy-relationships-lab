@@ -32,7 +32,6 @@ def get_events():
 
 # =========================
 # GET SESSIONS FOR ONE EVENT
-
 # =========================
 @app.route("/events/<int:id>/sessions")
 def get_event_sessions(id):
